@@ -6,9 +6,9 @@ Git Commands:
 * git config:
            This command sets the author name and email address respectively to be used with your commits.
            
-  usage: git config -global user.name "[name]"
-         git config -global user.email "[email address]"
-  example: git config -global user.name "Guleri24"
+  usage: git config --global user.name "[name]"
+         git config --global user.email "[email address]"
+  example: git config --global user.name "Guleri24"
   
 * git init:
            This command is used to start a new repository.

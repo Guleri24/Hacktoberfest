@@ -16,7 +16,7 @@ void draw_moving_car(void) {
         setcolor(RED); 
   
         // Thease lines for bonnet and  
-        // body of car 
+       
         line(0 + i, 300, 210 + i, 300); 
         line(50 + i, 300, 75 + i, 270); 
         line(75 + i, 270, 150 + i, 270); 

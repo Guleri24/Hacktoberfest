@@ -6,8 +6,8 @@ void draw_moving_car(void) {
   
     int i, j = 0, gd = DETECT, gm; 
   
-    // Passed three arguments to initgraph 
-    // function to initialize graphics mode 
+
+
     initgraph(&gd, &gm, ""); 
   
     for (i = 0; i <= 420; i = i + 10) { 

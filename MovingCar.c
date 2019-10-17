@@ -10,7 +10,7 @@ void draw_moving_car(void) {
 
     initgraph(&gd, &gm, ""); 
   
-    for (i = 0; i <= 420; i = i + 10) { 
+    for (i = 0; i <= 420; i += 10) { 
   
         // Set color of car as red 
         setcolor(RED); 

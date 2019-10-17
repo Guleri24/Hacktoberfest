@@ -45,8 +45,8 @@ void slidePattern(int xc, int yc, int r, int a, int b,
     t2 = sin(t * fmod(angle, 360)); 
     t1 *= t1; 
     t2 *= t2; 
-    t1 = t1 / (a * a); 
-    t2 = t2 / (b * b); 
+    t1 / =(a * a); 
+    t2 /= (b * b); 
     d = sqrt(t1 + t2); 
     d = 1 / d; 
   

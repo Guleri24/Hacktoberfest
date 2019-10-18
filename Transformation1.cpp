@@ -11,6 +11,7 @@ void DrawCordinates()
   line(320,0,320,640);
   line(0,240,640,240);
 }
+
 int main()
 {
 	int gd=DETECT,gm;

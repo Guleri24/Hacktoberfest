@@ -1,7 +1,6 @@
 #include <graphics.h> 
 #include <stdio.h> 
   
-// Function to draw moving car 
 void draw_moving_car(void) { 
   
     int i, j = 0, gd = DETECT, gm; 

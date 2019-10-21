@@ -1,0 +1,48 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+  font-family: monospace;
+}
+h1{
+  font-size: 50px;
+  color:mediumorchid;
+  font-family: Georgia, 'Times New Roman', Times, serif,italic;
+  font-weight: bold;
+}
+h2{
+  font-size: 40px;
+  color:mediumorchid;
+  font-family: Georgia, 'Times New Roman', Times, serif,italic;
+  font-weight: bold;
+}
+h3{
+  font-size: 30px;
+  color:rgb(112, 49, 228);
+  font-family: Georgia, 'Times New Roman', Times, serif,italic;
+  font-weight: bold;
+
+}
+li{
+  font-size: 20px;
+  color:greenyellow;
+}
+a{
+  color:greenyellow;
+}
+footer{
+    font-size: 10px;
+  color:gold;
+}
+
+.list{
+  list-style: circle;
+}
+#date{
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+}
+embed{
+  display:none;
+}

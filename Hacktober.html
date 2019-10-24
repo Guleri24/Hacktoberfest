@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+<head>
+<script>
+function setColor(){
+ document.body.style.backgroundColor = "grey";
+}
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+</head>
+<body>
+    <p id="demo">My Way to JavaScript.</p>
+ <button type="button" onclick='document.getElementById("demo").innerHTML="hello HacktoberFest", setColor()'>Click Me!</button>
+ 
+
+ <h2>What can javaScript do?</h2>
+ <p> JavaScript can change HTML attribute values. In this case JS changes the value of the src attribute of an image.</p>
+ 
+ <h1> Sponsor of hactoberFest </h1>
+ <button onclick="document.getElementById('Image').src='https://www.underconsideration.com/brandnew/archives/digitalocean_logo.png'">Digital Ocean</button>
+ <img id="Image" src="https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg" style="width:300px" >
+ <button onclick="document.getElementById('Image').src='https://cdn.worldvectorlogo.com/logos/devto.svg'">DEV </button>
+</body>
+</html>
